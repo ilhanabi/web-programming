@@ -1,0 +1,27 @@
+body {
+    font-family: Arial;
+    background: dimgray;
+}
+
+#iln207 {
+    background: darkblue;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+#iln207 span {
+    cursor: pointer;
+}
+
+.block {
+    background: white;
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid blue;
+}
+
+.block a {
+    color: blue;
+    text-decoration: none;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JavaScript 1</title>
+</head>
+<body>
+	<script type="text/javascript">
+
+		function menu(){
+			console.log('The menu button is clicked')
+			alert('The menu button is clicked')
+		}
+		function getMenuText(){
+			let menu = document.getElementById('menu');
+			console.log(menu.innerText);
+			menu.innerText = 'This is changed text';
+		}
+		function getBlocks(){
+			let blocks = document.getElementsByClassName('block');
+			console.log(blocks[0].innerText;
+		}
+	</script>
+
+
+
+	<!--eventlar -->
+
+
+
+	<div id="menu">
+		<span onclick = 'menu()'>This is menu block</span>
+	</div>
+	<div class="block">This is block 1
+		<a href ='#' onclick="getMenuText()">Link</a>
+	</div>
+	<div class="block" onclick="getBlocks()">This is block 2</div>
+	<div class="block">This is block 3</div>
+
+	
+</body>
+</html>
